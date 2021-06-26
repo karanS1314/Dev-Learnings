@@ -1,0 +1,37 @@
+$ why backend?
+- javascript writen on the web apps(using the environment provided by the browser) can only interact with the site and do functions related to that like, animations , eventListners 
+- But js writen on the backend(where nodejs is an environment) can act as a server and interact with the computer hardware of the viewer to provide services, make sum inbuilt code to make the site run faster, etc.
+- Database needs to connect with a server that is implemented in the backend. 
+- Web app consists of application(mostly frontend) , server(backend) , database.
+- nobody can see how u implement ur code
+
+$ nodeJS
+- is a runtime environment refer (https://hackr.io/blog/what-is-frameworks)
+
+$ nodeJs modules?
+- Consider modules to be the same as JavaScript libraries. A set of functions you want to include in your application.
+- You can even create ur own module and require it to use as a module.
+- http is also a module
+
+$ express
+- Express is a popular unopinionated web framework, written in JavaScript and hosted within the Node. js runtime environment
+- Express bolta hai node ko ki tu mere tareeke se code likh mai tere according output laake dunga -- framework yehi krta hai
+- Express. js is based on the Node. js middleware module called connect which in turn uses http module. 
+- If we didnt use express to build the server (refer : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework), ye krna pdta nodejs mei to start hosting a server
+
+$ api
+- An API (Application Programming Interface) is a set of functions that allows applications to access data and interact with external software components, operating systems, or microservices. 
+- To simplify, an API delivers a user response to a system and sends the system's response back to a user.
+- Endpoints, Path and parameters(implemented using hashmap that find the things which contains this keyword)
+
+$ EJS
+- template library
+- <% ..... %> javascript
+- <%= ....... %> customizable according to user input data
+- <%- ...... -%> partials include
+
+$ database
+- NoSQL - MongoDB and SQL - MySQL
+- MySQL - structured/predefinded structure of the data like the excel sheet - more space(contains null elements) - vertical scaling
+- MongoDB - random ordered data - flexible - not good in building relationships between different datas - easier for one maker and 1000s of users - horizontal scaling
+- mongoose is a node module

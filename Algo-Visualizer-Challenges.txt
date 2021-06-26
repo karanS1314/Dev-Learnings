@@ -1,0 +1,21 @@
+--- SITUATION
+- as i was revising my sorting algos and stuff related to that i saw a utube video of sorting visualizer in which the each step of every sorting algorithms was implemented and displayed. 
+- I got faccinated to see that so I saw that hows that built, it was built using reactJS and as I dont knw react so I dropped the idea.
+- But this stuck into my mind for days and I thought to either learn react or implement this logic into css, javascript
+- and as I was busy learning DSA stuff there wasnt enough time for me to learn react and strengthen my concepts in that so i chose the later.
+
+--- CHALLENGES IN ALGO VISUALIZER
+- the thinking part that how to show the array of numerical elements into divs ... 
+- dependent divs banani pdegi jo random array create hoga usse uski height decide hogi and then later i customised the width as well for the mobile viewers.
+- in the thinking part itself i thought that how to hold a color or a transition for some time and i dont know this time coz its given in the input part, so cant use setTimeout
+- learned about async promises and await
+- bootstrap se slider to async function se link kiya using javascript delay function
+- this delay function ko sorting mei kaise aur kahan use krein, like later i got to know that selection sort, insertion sort runs in a sorted array itself while bubble sort doesnt
+- the delay portion was the most challenging as it was a lil tricky to where to have a pause and i have to tweek the delay element for each sorting algo specifically to find the best case.
+- DOM details 
+
+
+-- LEARNINGS
+- strengthen my grasp on the sorting algos, especially merge sort learning in deep that how a sorting algo is swapping the elements in each of its step and knwoing each one of them
+- the beleive that yes i can implement the code with the logic and with any idea that i have
+- integration of DSA and limited dev that I have learned until now.
