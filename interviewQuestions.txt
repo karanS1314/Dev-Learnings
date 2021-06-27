@@ -1,0 +1,12 @@
+$ javascript
+https://www.dotnettricks.com/learn/javascript/javascript-interview-questions
+
+$ nodeJS
+https://www.guru99.com/node-js-interview-questions.html, https://www.interviewbit.com/node-js-interview-questions/
+
+$ mongoDb
+https://www.interviewbit.com/mongodb-interview-questions/
+
+$ git/github
+https://www.edureka.co/blog/git-commands-with-example/
+https://www.interviewbit.com/git-interview-questions/
