@@ -1,0 +1,16 @@
+$ graph
+- hamiltonian paths = start from the source and cover all the nodes without visiting any node twice
+- hamiltonian cycle = hamiltonian path ka last node src se direct edge rkhta ho to vo hamiltonian cycle
+
+- cycle detection in undirected = agar ek node mei pohnchne ke ek se zyada tareeke 
+- cycle detection in directed = isme agar BFS se kiya to kaam khtm
+	/\	
+       /  \	
+      _\||/_  aisi ko bhi cycle bolega ye
+- so its better to use self dfs with fresh visited boolean array using backtracking in cycle detection in directed &&&&&& self - bfs in undirected with common vis array	
+
+
+- bipartite = 2 sets mei divide kr skta hu vertices jisse all the edges are across the set and none in btw the vert of a set
+- every non - cyclic graph is bipartite
+- every cyclic odd vertices is never a bipartite
+- solve in case of cyclic even vertices!  
