@@ -1,0 +1,9 @@
+weak points:-
+
+- kmp
+- trie
+- sliding window
+- maths
+- binary search
+- time complexity
+- implementation of pq , tries , hashmap , stack , queue

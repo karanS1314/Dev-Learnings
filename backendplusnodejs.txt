@@ -35,3 +35,32 @@ $ database
 - MySQL - structured/predefinded structure of the data like the excel sheet - more space(contains null elements) - vertical scaling
 - MongoDB - random ordered data - flexible - not good in building relationships between different datas - easier for one maker and 1000s of users - horizontal scaling
 - mongoose is a node module
+
+$ REST API
+- HTTPS S stands for secured using cryptography , HTTP is a request language used globally like app.get(function(req , res)) -> req here is HTTP request thats why require HTTP node module in app.js
+- Server responds in the form of fulfilling the request. -> this is what API is
+- REST API is a Architecture style global standard, to work together and have a common structure of writing/ doing things.
+- HTTP verbs to make API restful - get , post , put , patch , delete
+- app.get
+- app.post
+- app.put/patch -- to update the data
+- app.delete
+- Put vs Patch - put is to change the whole entry whereas patch is to fix/update a part of entry/data;
+
+$ git/github
+- ls -a (force show the inherit folders/file)
+- git checkout (XXXXXX)log code -- travel in different logs/ branches
+- git branch -- new branch 
+- git checkout -b -- new branch and usko checkout seedha
+- git merge <branch name> -- merge this branch into current 
+
+- git add origin <git repo>
+- git remote -v
+
+
+
+
+
+
+
+

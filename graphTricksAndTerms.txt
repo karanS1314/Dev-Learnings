@@ -14,3 +14,27 @@ $ graph
 - every non - cyclic graph is bipartite
 - every cyclic odd vertices is never a bipartite
 - solve in case of cyclic even vertices!  
+
+- has path vale mei backtracking krte time vis false nhi krte vrna never ending recursion mei fs jaoge
+
+- topological sort = mai kisi pe dependent hu to vo mujse phele print kro -- dfs and stack in post order
+- we cannot use preorder printing in topological sort (think why?)
+- topological sort happens in directed acyclic graph
+
+- why dijskrta fail in negative weight cycle- 
+	Recall that in Dijkstra's algorithm, once a vertex is marked as "closed" (and out of the open set) - the algorithm found the shortest path to it, and will never have to develop this node again - it assumes the path developed to this path is the shortest.
+	But with negative weights - it might not be true. For example:
+      	     A
+       	    / \
+     	   /   \
+    	  /     \
+   	 5       2
+  	/         \
+  	B--(-10)-->C
+
+	V={A,B,C} ; E = {(A,C,2), (A,B,5), (B,C,-10)}
+	Dijkstra from A will first develop C, and will later fail to find A->B->C
+
+- bellman ford - works for negative wt edges to find shortest path - negative cycles mei, shortest path is not defined
+
+- mother vertex ke liye topological sort lgao aur top most vali hi hogi ya nhi hogi .. to check ek baar dfs lgado aur agar sbko cover krle ye to ye motheer vertex vrna no mother vertex
