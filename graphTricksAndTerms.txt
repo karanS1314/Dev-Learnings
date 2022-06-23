@@ -11,9 +11,9 @@ $ graph
 
 
 - bipartite = 2 sets mei divide kr skta hu vertices jisse all the edges are across the set and none in btw the vert of a set
-- every non - cyclic graph is bipartite
-- every cyclic odd vertices is never a bipartite
-- solve in case of cyclic even vertices!  
+// every acyclic graph is a bipartite
+// cyclic with even number of vertices is a bipartite
+// cyclic with odd number of vertices is not a bipartite
 
 - has path vale mei backtracking krte time vis false nhi krte vrna never ending recursion mei fs jaoge
 
